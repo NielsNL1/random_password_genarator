@@ -18,10 +18,10 @@ def generate_password():
     # Generates a random password
     password = ''.join(random.choice(characters) for i in range(how_many_characters))
 
-    # Return the generated password
+    # Returns the generated password
     return password
 
 
-# prints the random password
+# prints the random password/passwords
 for i in range(how_many_passwords):
     print(generate_password())
