@@ -5,6 +5,7 @@ import string
 how_many_characters = input('How many characters do you want it to have? (only type the number) ')
 how_many_passwords = input('How many passwords do you want? (only type the number) ')
 
+# turns the input into interger 
 how_many_characters = int(how_many_characters)
 how_many_passwords = int(how_many_passwords)
 
